@@ -103,6 +103,14 @@
 # Phone.Isdn()
 # Phone.G3()
 
+# The list of directories where Python will look for the files to be imported is  sys.path .
+# This is just a variable named ‘path’ stored inside the ‘sys’ module 
+# import sys 
+# sys.path 
+# ['', '/Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/setuptools-0.6c5-py2.5.egg’, ...]
+# To add a directory of your own to this list, append it to this list 
+# sys.path.append(‘/my/new/path’)
+
 
 ## Exception handling
 
